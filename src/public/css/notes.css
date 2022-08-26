@@ -1,0 +1,162 @@
+.cont1{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+.cont2{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    height: 18rem;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.cardTitle{
+    height: 3rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #bebcbc;
+}
+.btnX{
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999rem;
+    margin-left: 1rem;
+    width: 1.4rem;
+    height: 1.5rem;
+    color: red;
+   
+}
+.btnX:hover{
+    color: rgb(192, 9, 9);
+}
+.titleC{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: auto;
+    margin-right: 2rem;
+}
+.description1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.Done{
+    margin-top: auto;
+    padding-top: 7rem;
+}
+
+
+.btnDone {
+  background-color: #ffe100a4;
+  border-radius: 8px;
+  width: 15rem;
+  display: flex;
+  border-style: none;
+  box-sizing: border-box;
+  color: #616161;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.btnDone:hover,
+.btnDone:focus {
+  background-color: rgb(221, 221, 106);
+  color: rgb(93, 93, 93);
+}
+
+.btnPending {
+    background-color: #37ff0090;
+    border-radius: 8px;
+    width: 15rem;
+    display: flex;
+    border-style: none;
+    box-sizing: border-box;
+    color: #616161;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  
+  .btnPending:hover,
+  .btnPending:focus {
+    background-color: rgb(149, 232, 140);
+    color: rgb(93, 93, 93);
+  } 
+  .cardCreate{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    background-color: #f5f56d;
+    justify-content: center;
+    height: 25rem;
+    width: 35rem;
+  }
+  .title{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: rgb(133, 133, 133);
+    font-size: 2rem;
+  }
+  .create1{
+    margin-top: 5rem;
+    width: 25rem;
+  }
+  .cardBody1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

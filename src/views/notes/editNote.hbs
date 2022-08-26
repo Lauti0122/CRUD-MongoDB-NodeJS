@@ -1,0 +1,19 @@
+<div class="col-md-4 mx auto">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Edit Note</h5>
+    
+        <form action="/notes/edit/{{note._id}}" method="POST">
+        <div class="form-group">
+            <input type="text" name="title" class="form-control" placeholder="Title..." value={{note.title}} autofocus>
+        </div>
+        <div class="form-group">
+            <textarea name="description" class="form-control" placeholder="Description...">{{note.description}}</textarea>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-block" type="submit"> Update</button>
+        </div>
+        </form>
+  </div>
+</div>
+</div>

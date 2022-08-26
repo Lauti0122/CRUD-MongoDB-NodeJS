@@ -1,0 +1,35 @@
+ <link rel="stylesheet" href="/css/notes.css">
+<div class="cont1">
+    {{#each notes}}
+    <div class="cont2">
+ <div class="card1">
+    <div class="cardBody">
+    <h5 class="cardTitle">
+      <div class="titleC"> {{title}}</div>
+      <a href="/notes/edit/{{_id}}"> <i class="fa-solid fa-pen-to-square"></i></a>
+      <a style="text-decoration: none" class="btnX" href="/notes/delete/{{_id}}"> <i class="fa-solid fa-trash"></i> </a>
+    </h5>
+    <p class="description1">{{description}}</p>
+    {{!-- <button class="btn btn-danger btn-block btn-sm">Delete</button> --}}
+    <div class="Done">
+      {{#if done}}
+        <a style="text-decoration: none" class="btnPending" href="/notes/done/{{_id}}"> Done </a>
+      {{else}}
+        <a style="text-decoration: none" class="btnDone" href="/notes/done/{{_id}}"> Pending </a>
+    {{/if}}
+   
+    </div>
+  </div>
+</div>
+    </div>
+  {{else}}
+
+  <div class="cardCreate">
+    <div class="cardBody1">
+        <p class="title">There are not notes yet.</p>
+        <img  class="image" src="https://cdn-icons-png.flaticon.com/512/273/273511.png" width="40%" height="40%">
+        <a href="/notes/add" class="btn btn-primary btn-block create1">Create One</a>
+    </div>
+  </div>
+    {{/each}}
+</div>
